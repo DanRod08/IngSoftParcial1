@@ -5,11 +5,8 @@ name: Node.js CI
 
 on:
   push:
-    branches: ["*"]
-  pull_request:
-    branches: ["master"]
+    branches: ["master", "examen-parcial-1"]
 
-  #fortesting
 
 jobs:
   build:
